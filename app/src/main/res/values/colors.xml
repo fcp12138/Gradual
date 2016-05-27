@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#FF6d4c41</color>
+    <color name="colorPrimaryDark">#FF774c41</color>
+    <color name="colorAccent">#FFAA4c41</color>
 
     <!--grad_view_bar_-->
     <color name="grad_view_text_color">#FF6d4c41</color>

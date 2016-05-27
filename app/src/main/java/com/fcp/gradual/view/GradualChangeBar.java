@@ -86,6 +86,9 @@ public class GradualChangeBar extends LinearLayout implements View.OnClickListen
         //初始化第一项
         viewPager.setCurrentItem(0,false);
         one.setIconAlpha(1);
+        two.setIconAlpha(0);
+        three.setIconAlpha(0);
+        four.setIconAlpha(0);
         selectId = one.getId();
         //监听
         viewPager.addOnPageChangeListener(this);

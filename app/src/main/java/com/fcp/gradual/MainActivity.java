@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.fcp.gradual.fragment.LazyFragment;
 import com.fcp.gradual.fragment.impl.FirstFragment;
-import com.fcp.gradual.fragment.impl.FouthFragment;
+import com.fcp.gradual.fragment.impl.FourthFragment;
 import com.fcp.gradual.fragment.impl.SecondFragment;
 import com.fcp.gradual.fragment.impl.ThirdFragment;
 import com.fcp.gradual.view.GradualChangeBar;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         oneFragment = new FirstFragment();
         twoFragment = new SecondFragment();
         threeFragment = new ThirdFragment();
-        fourFragment = new FouthFragment();
+        fourFragment = new FourthFragment();
         pageList.add(oneFragment);
         pageList.add(twoFragment);
         pageList.add(threeFragment);
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         MyFragmentPagerAdapter pageAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(pageAdapter);
         //显示第一个
+        setTitle(getString(R.string.fragment_store_text));
     }
 
     /**
@@ -63,18 +64,22 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void selectOne() {
+            setTitle(getString(R.string.fragment_store_text));
         }
 
         @Override
         public void selectTwo() {
+            setTitle(getString(R.string.fragment_activity_text));
         }
 
         @Override
         public void selectThree() {
+            setTitle(getString(R.string.fragment_message_text));
         }
 
         @Override
         public void selectFour() {
+            setTitle(getString(R.string.fragment_mine_text));
         }
     }
 
