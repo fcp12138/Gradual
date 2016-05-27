@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Gradual</string>
+
+    <!--fragment_store-->
+    <string name="fragment_store_text">首页</string>
+
+    <!--fragment_record-->
+    <string name="fragment_activity_text">活动</string>
+
+    <!--fragment_find-->
+    <string name="fragment_message_text">消息</string>
+
+    <!--fragment_mine-->
+    <string name="fragment_mine_text">我的</string>
+
+
 </resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.fcp.gradual.view.GradualChangeView
+        android:id="@+id/activity_app_main_gradual_bar_one"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="@dimen/grad_view_padding"
+        bar:grad_icon_top_selected="@mipmap/ic_grad_store_selected"
+        bar:grad_icon_top_unselect= "@mipmap/ic_grad_store_unselect"
+        bar:grad_text_bottom="@string/fragment_store_text"
+        bar:grad_text_size="@dimen/grad_view_text_size"
+        bar:grad_text_color="@color/grad_view_text_color"/>
+
+    <com.fcp.gradual.view.GradualChangeView
+        android:id="@+id/activity_app_main_gradual_bar_two"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="@dimen/grad_view_padding"
+        bar:grad_icon_top_selected="@mipmap/ic_grad_activity_selected"
+        bar:grad_icon_top_unselect= "@mipmap/ic_grad_activity_unselect"
+        bar:grad_text_bottom="@string/fragment_activity_text"
+        bar:grad_text_size="@dimen/grad_view_text_size"
+        bar:grad_text_color="@color/grad_view_text_color" />
+
+    <com.fcp.gradual.view.GradualChangeView
+        android:id="@+id/activity_app_main_gradual_bar_three"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="@dimen/grad_view_padding"
+        bar:grad_icon_top_selected="@mipmap/ic_grad_message_selected"
+        bar:grad_icon_top_unselect= "@mipmap/ic_grad_message_unselect"
+        bar:grad_text_bottom="@string/fragment_message_text"
+        bar:grad_text_size="@dimen/grad_view_text_size"
+        bar:grad_text_color="@color/grad_view_text_color"/>
+
+
+    <com.fcp.gradual.view.GradualChangeView
+        android:id="@+id/activity_app_main_gradual_bar_four"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="@dimen/grad_view_padding"
+        bar:grad_icon_top_selected="@mipmap/ic_grad_mine_selected"
+        bar:grad_icon_top_unselect= "@mipmap/ic_grad_mine_unselect"
+        bar:grad_text_bottom="@string/fragment_mine_text"
+        bar:grad_text_size="@dimen/grad_view_text_size"
+        bar:grad_text_color="@color/grad_view_text_color"/>
+
+
+</merge>

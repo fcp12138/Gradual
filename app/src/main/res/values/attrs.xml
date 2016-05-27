@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--渐变导航栏属性-->
+    <attr name="grad_icon_top_selected" format="reference"/>
+    <attr name="grad_icon_top_unselect" format="reference"/>
+    <attr name="grad_text_bottom" format="string"/>
+    <attr name="grad_text_size" format="dimension"/>
+    <attr name="grad_text_color" format="color"/>
+    <!--渐变导航栏属性风格-->
+    <declare-styleable name="GradualChangeBar">
+        <attr name="grad_icon_top_selected" />
+        <attr name="grad_icon_top_unselect"/>
+        <attr name="grad_text_bottom" />
+        <attr name="grad_text_size" />
+        <attr name="grad_text_color" />
+    </declare-styleable>
+
+</resources>
