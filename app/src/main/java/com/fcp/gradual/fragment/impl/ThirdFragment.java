@@ -21,6 +21,6 @@ public class ThirdFragment extends LazyFragment{
 
     @Override
     protected View setContentView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_fourth,container,false);
+        return inflater.inflate(R.layout.fragment_third,container,false);
     }
 }
