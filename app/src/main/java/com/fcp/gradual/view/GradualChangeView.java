@@ -19,7 +19,7 @@ import com.fcp.gradual.R;
 
 
 /**
- * 渐变各模块
+ * 渐变子模块
  * Created by fcp on 2015/9/22.
  */
 public class GradualChangeView extends View {
@@ -32,8 +32,8 @@ public class GradualChangeView extends View {
     //底部文字
     private String mText;
     //文字转变色
-    private int mColor = 0x45C01A;
-    private int sColor = 0x555555;
+    private int mColor = 0x45C01A;//未选
+    private int sColor = 0x555555;//选中
     //文本大小
     private int mTextSize = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 10, getResources().getDisplayMetrics());
     //文本区域
